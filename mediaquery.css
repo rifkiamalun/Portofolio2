@@ -1,0 +1,40 @@
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+   background-color: #100f0f;
+   font-family: sans-serif;
+
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #100f0f;
+   font-family: sans-serif;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+    width: 20%;
+    height: 462px;
+    background-image:url("jon.png");
+    background-size: cover;
+    background-attachment: initial;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 600px) {
+   .tentang {
+    padding: 25%;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-top: -20px;
+    }
+  }
+
